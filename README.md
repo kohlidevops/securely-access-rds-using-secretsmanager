@@ -10,6 +10,7 @@ Navigate to AWS RDS console - create new RDS instance with MySQL engine
 **Step-2: Create a table in RDS Database**
 
 Connect the MySQL Database with MySQL client from local machine
+
 Create a employees table in demodb
 
 ![rds2](https://github.com/kohlidevops/securely-access-rds-using-secretsmanager/assets/100069489/c7d85a88-f2cf-4790-9617-b4170b141313)
