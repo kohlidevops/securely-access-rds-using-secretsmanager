@@ -1,0 +1,17 @@
+#To access the RDS instance using credentials in this code which is not safe
+
+import mysql.connector
+
+mydb = mysql.connector.connect(
+host="RDS-ENDPOINT",
+user="admin",
+passwd="Welcome123",
+database="DB-NAME"
+)
+mycursor = mydb.cursor()
+
+sql = "INSERT INTO employees (id, name) VALUES (%s, %s)"
+val = (1, "latchu")
+mycursor.execute(sql, val)
+mydb.commit()
+print(mycursor.rowcount, "record inserted.")
