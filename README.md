@@ -1,4 +1,4 @@
-# securely-access-rds-using-secretsmanager
+# How to securely access the RDS Instance using Secrets Manager
 **To securely access Amazon RDS instance using secrets manager**
 
 **Step-1: Create RDS Instance**
